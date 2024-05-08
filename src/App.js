@@ -51,12 +51,17 @@ const App = () => {
 <div className="max-w-[1020px] w-[80%] flex flex-wrap mx-auto justify-center items-center  ">
    {
     loading ?(<Spinner/>):(<Cards courses={courses} category={category} />)
+    // This is it
+    
+
+    
 
     }
 
 
 </div>
     </div>
+
     
 
     
